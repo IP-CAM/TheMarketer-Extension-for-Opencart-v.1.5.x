@@ -15,6 +15,6 @@ if (isset($request->get['route'])) {
 This Code
 ```
 /* TheMarketer Start */
-$controller->addPreAction(new Action('modules/mktr_tracker/oc2'));
+$controller->addPreAction(new Action('module/mktr_tracker/oc2'));
 /* TheMarketer END */
 ````
