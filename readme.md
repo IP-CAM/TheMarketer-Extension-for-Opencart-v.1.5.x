@@ -6,13 +6,18 @@
 ## Install
 Copy this repo in root
 
-In order to proper function please add in root/index.php and root/admin/index.php of your store following code before:
+In order to proper function please add in root/index.php before:
+```
+// SEO URL's
+$controller->addPreAction(new Action('common/seo_url'));
+```
+And in root/admin/index.php before:
 ```
 // Router
 if (isset($request->get['route'])) {
 ```
 
-This Code
+Following code:
 ```
 /* TheMarketer Start */
 $controller->addPreAction(new Action('module/mktr_tracker/oc2'));
