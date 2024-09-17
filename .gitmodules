@@ -1,4 +1,4 @@
 [submodule "system"]
 	path = system
-	url = https://github.com/eaxlex/OpenCart-System
+	url = https://github.com/the-marketer/OpenCart-System
 	branch = latest
